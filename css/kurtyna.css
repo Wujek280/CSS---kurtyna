@@ -1,12 +1,33 @@
+.column {
+    display: inline-block;
+    width: 24%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: red;
+    border-right: solid 2px red;
+    opacity: 0.85;
+    margin:0;
+    height: 850px;
+}
 
-.photobox {
+.body:hover{
+    width: 75%;
+}
+
+.body:hover .column:not(:hover)
+{
+    width: 20%;
+}
+
+.background {
     margin:0;
     background-repeat: no-repeat;
-    width: 24vw;
-    height: 100vh;
+    width: 100%;
+    height: 850px;
     display: inline-block;
     background-position: right top;
     background-attachment: fixed;
+    position: absolute;
 }
 
 #pic1,#pic3 {
@@ -16,11 +37,7 @@
     background-image: url("../gfx/pic2.jpg");
 }
 
+/* --- --- --- --- --- */
 
-.kurtyna {
-    
-}
 
-@media .kurtyna {
-    
-}
+
