@@ -1,0 +1,26 @@
+
+.photobox {
+    margin:0;
+    background-repeat: no-repeat;
+    width: 24vw;
+    height: 100vh;
+    display: inline-block;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+#pic1,#pic3 {
+    background-image: url("../gfx/pic1.jpg");
+}
+#pic2,#pic4 {
+    background-image: url("../gfx/pic2.jpg");
+}
+
+
+.kurtyna {
+    
+}
+
+@media .kurtyna {
+    
+}
