@@ -1,21 +1,19 @@
 .column {
     display: inline-block;
-    width: 24%;
+    width: 24vw;
     box-sizing: border-box;
     position: relative;
-    background-color: red;
     border-right: solid 2px red;
-    opacity: 0.85;
     margin:0;
     height: 850px;
+    float:left;
 }
 
-.body:hover{
+.column:hover{
     width: 75%;
 }
 
-.body:hover .column:not(:hover)
-{
+.column:not(:hover){
     width: 20%;
 }
 
@@ -36,8 +34,4 @@
 #pic2,#pic4 {
     background-image: url("../gfx/pic2.jpg");
 }
-
-/* --- --- --- --- --- */
-
-
 
